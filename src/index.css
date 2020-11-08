@@ -1,7 +1,9 @@
 :root {
-    --background: #ffffff;
+    --background: #dde1e4;
+    --content-background: #ffffff;
     --foreground: #333333;
     --theme: #1a73e8;
+    --border-radius: 10px;
 }
 
 html, body {
@@ -12,4 +14,13 @@ html, body {
 
 .text-theme {
     color: var(--theme);
+}
+
+.bg-content {
+    background-color: var(--content-background);
+}
+
+.bg-theme {
+    background-color: var(--theme);
+    color: var(--content-background);
 }

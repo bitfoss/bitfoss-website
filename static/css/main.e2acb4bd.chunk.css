@@ -1,0 +1,2 @@
+:root{--background:#dde1e4;--content-background:#fff;--foreground:#333;--theme:#1a73e8;--border-radius:10px}body,html{font-family:"Ubuntu",Arial,Helvetica,sans-serif;background-color:#dde1e4;background-color:var(--background);color:#333;color:var(--foreground)}.text-theme{color:#1a73e8;color:var(--theme)}.bg-content{background-color:#fff;background-color:var(--content-background)}.bg-theme{background-color:#1a73e8;background-color:var(--theme);color:#fff;color:var(--content-background)}
+/*# sourceMappingURL=main.e2acb4bd.chunk.css.map */

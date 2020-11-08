@@ -1,10 +1,13 @@
 import React from 'react';
+import { Page } from '../components/Page';
 
 export const Home = () => {
 
     return (
-        <div className="text-center">
-            <p><span className="text-theme">Bitfoss.com</span> is under construction.</p>
-        </div>
+        <Page title="Welcome">
+            <div>
+                <p>Bitfoss.com is under construction...</p>
+            </div>
+        </Page>
     );
 };

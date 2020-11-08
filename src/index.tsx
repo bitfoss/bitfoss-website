@@ -5,6 +5,7 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+import "fontsource-ubuntu";
 
 ReactDOM.render(
   <React.StrictMode>

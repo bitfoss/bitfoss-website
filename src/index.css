@@ -1,14 +1,26 @@
 :root {
-    --background: #333333;
-    --foreground: #ffffff;
-    --theme: #00ffff;
+    --background: #dde1e4;
+    --content-background: #ffffff;
+    --foreground: #333333;
+    --theme: #1a73e8;
+    --border-radius: 10px;
 }
 
 html, body {
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
     background-color: var(--background);
     color: var(--foreground);
 }
 
 .text-theme {
     color: var(--theme);
+}
+
+.bg-content {
+    background-color: var(--content-background);
+}
+
+.bg-theme {
+    background-color: var(--theme);
+    color: var(--content-background);
 }

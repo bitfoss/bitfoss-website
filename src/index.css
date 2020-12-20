@@ -1,26 +1,52 @@
 :root {
-    --background: #dde1e4;
-    --content-background: #ffffff;
-    --foreground: #333333;
-    --theme: #1a73e8;
-    --border-radius: 10px;
+    --base-one: #0f192f;
+    --base-two: #060b14;
+    --contrast: #ffffff;
+
+    --theme-one: #fcb045;
+    --theme-two: #fd1d1d;
+    --theme-three: #833ab4;
 }
 
 html, body {
     font-family: "Ubuntu", Arial, Helvetica, sans-serif;
-    background-color: var(--background);
-    color: var(--foreground);
 }
 
-.text-theme {
-    color: var(--theme);
+a { color: var(--theme-one); }
+a:hover { color: var(--theme-two); }
+
+.bg-gradient {
+    background: var(--theme-one) !important;
+    background: linear-gradient(90deg, var(--theme-one) 0%,var(--theme-two) 50%, var(--theme-three) 100%) !important;
 }
 
-.bg-content {
-    background-color: var(--content-background);
-}
+/* base-one */
+.text-base-one { color: var(--base-one) !important; }
+.bg-base-one { background-color: var(--base-one) !important; }
+.border-base-one { border-color: var(--base-one) !important; }
 
-.bg-theme {
-    background-color: var(--theme);
-    color: var(--content-background);
-}
+/* base-two */
+.text-base-two { color: var(--base-two) !important; }
+.bg-base-two { background-color: var(--base-two) !important; }
+.border-base-two { border-color: var(--base-two) !important; }
+
+/* contrast */
+.text-contrast { color: var(--contrast) !important; }
+.bg-contrast { background-color: var(--contrast) !important; }
+.border-contrast { border-color: var(--contrast) !important; }
+
+/* theme-one */
+.text-theme-one { color: var(--theme-one) !important; }
+.bg-theme-one { background-color: var(--theme-one) !important; }
+.border-theme-one { border-color: var(--theme-one) !important; }
+
+/* theme-two */
+.text-theme-two { color: var(--theme-two) !important; }
+.bg-theme-two { background-color: var(--theme-two) !important; }
+.border-theme-two { border-color: var(--theme-two) !important; }
+
+/* theme-three */
+.text-theme-three { color: var(--theme-three) !important; }
+.bg-theme-three { background-color: var(--theme-three) !important; }
+.border-theme-three { border-color: var(--theme-three) !important; }
+

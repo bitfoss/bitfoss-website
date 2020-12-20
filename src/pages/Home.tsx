@@ -12,7 +12,7 @@ export const Home = () => {
                 <p>
                     {firstSentence}
                     All projects are developed with the following mindset,
-                    slightly inspired by the <a target="_blank" href="https://en.wikipedia.org/wiki/MoSCoW_method">MoSCoW method</a>.
+                    slightly inspired by the <a target="_blank" rel="noreferrer"  href="https://en.wikipedia.org/wiki/MoSCoW_method">MoSCoW method</a>.
                 </p>
                 <ul>
                     <li>It <b>must</b> be fun to implement</li>
